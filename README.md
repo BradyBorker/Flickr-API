@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Odin Project: [Flickr API](https://www.theodinproject.com/lessons/ruby-on-rails-flickr-api#introduction)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Goals:
+Learn how to work with external APIs using environmental variables to reduce the risk of exposure

@@ -1,3 +1,7 @@
 <%= form_tag("/static_pages", method: "get") do %>
-    
+    <div>
+        <%= label_tag 'user_id', 'Flickr User ID' %>
+        <%= text_field_tag 'user_id' %>
+    </div>
+    <%= button_tag 'Submit', type: 'submit' %>
 <% end %>

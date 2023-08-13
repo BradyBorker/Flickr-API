@@ -1,7 +1,7 @@
 <%= form_tag("/static_pages", method: "get") do %>
-    <div>
-        <%= label_tag 'user_id', 'Flickr User ID' %>
-        <%= text_field_tag 'user_id' %>
+    <div style='display: flex; flex-direction: column; width: 15%;'>
+        <%= label_tag :user_id, 'Flickr User ID' %>
+        <%= text_field_tag :user_id, nil, required: true %>
     </div>
     <%= button_tag 'Submit', type: 'submit' %>
 <% end %>
